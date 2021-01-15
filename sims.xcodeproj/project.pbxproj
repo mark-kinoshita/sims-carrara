@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,19 @@
 		8B7CDD07258FD81D00C6908B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7CDCDC258FD81C00C6908B /* ContentView.swift */; };
 		8B7CDD08258FD81D00C6908B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CDCDD258FD81D00C6908B /* Assets.xcassets */; };
 		8B7CDD09258FD81D00C6908B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CDCDD258FD81D00C6908B /* Assets.xcassets */; };
+		8B7CDD1E25916AFE00C6908B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CDD1D25916AFE00C6908B /* SwiftUICharts */; };
+		8B7CDD5D259328C600C6908B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CDD5C259328C600C6908B /* Alamofire */; };
+		951E824D25ACDFF900F14815 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E824C25ACDFF900F14815 /* GraphView.swift */; };
+		951E825325ACED4100F14815 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E825225ACED4100F14815 /* NetworkManager.swift */; };
+		951E825925ACED7600F14815 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E825825ACED7600F14815 /* Response.swift */; };
+		953079F825ACC0E100914EDE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953079F725ACC0E100914EDE /* Home.swift */; };
+		953079FD25ACC1FB00914EDE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953079F725ACC0E100914EDE /* Home.swift */; };
+		95307A0325ACC20900914EDE /* DataExplorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95307A0225ACC20900914EDE /* DataExplorer.swift */; };
+		95307A0925ACC25E00914EDE /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95307A0825ACC25E00914EDE /* About.swift */; };
+		95307A0F25ACC29000914EDE /* ScreenCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95307A0E25ACC29000914EDE /* ScreenCard.swift */; };
+		95307A1625ACC6C400914EDE /* nasalization-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95307A1525ACC6C400914EDE /* nasalization-rg.ttf */; };
+		95307A1F25ACC7B800914EDE /* nasalization-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95307A1525ACC6C400914EDE /* nasalization-rg.ttf */; };
+		95307A3125ACD02A00914EDE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95307A3025ACD02A00914EDE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,15 @@
 		8B7CDCFD258FD81D00C6908B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7CDD01258FD81D00C6908B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8B7CDD03258FD81D00C6908B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E824C25ACDFF900F14815 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		951E825225ACED4100F14815 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		951E825825ACED7600F14815 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		953079F725ACC0E100914EDE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		95307A0225ACC20900914EDE /* DataExplorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExplorer.swift; sourceTree = "<group>"; };
+		95307A0825ACC25E00914EDE /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		95307A0E25ACC29000914EDE /* ScreenCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCard.swift; sourceTree = "<group>"; };
+		95307A1525ACC6C400914EDE /* nasalization-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nasalization-rg.ttf"; sourceTree = "<group>"; };
+		95307A3025ACD02A00914EDE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7CDD1E25916AFE00C6908B /* SwiftUICharts in Frameworks */,
+				8B7CDD5D259328C600C6908B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +122,14 @@
 		8B7CDCDA258FD81C00C6908B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				953079F525ACC05A00914EDE /* Networking */,
+				953079F425ACC05700914EDE /* Views */,
+				953079F325ACC04A00914EDE /* Screens */,
 				8B7CDCDB258FD81C00C6908B /* simsApp.swift */,
 				8B7CDCDC258FD81C00C6908B /* ContentView.swift */,
+				953079F725ACC0E100914EDE /* Home.swift */,
 				8B7CDCDD258FD81D00C6908B /* Assets.xcassets */,
+				95307A1425ACC69A00914EDE /* Fonts */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -151,6 +180,50 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		953079F325ACC04A00914EDE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				95307A0225ACC20900914EDE /* DataExplorer.swift */,
+				95307A0825ACC25E00914EDE /* About.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		953079F425ACC05700914EDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95307A0E25ACC29000914EDE /* ScreenCard.swift */,
+				95307A3025ACD02A00914EDE /* MapView.swift */,
+				951E824C25ACDFF900F14815 /* GraphView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		953079F525ACC05A00914EDE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				953079F625ACC06000914EDE /* Models */,
+				951E825225ACED4100F14815 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		953079F625ACC06000914EDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				951E825825ACED7600F14815 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95307A1425ACC69A00914EDE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95307A1525ACC6C400914EDE /* nasalization-rg.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +240,10 @@
 			dependencies = (
 			);
 			name = "sims (iOS)";
+			packageProductDependencies = (
+				8B7CDD1D25916AFE00C6908B /* SwiftUICharts */,
+				8B7CDD5C259328C600C6908B /* Alamofire */,
+			);
 			productName = "sims (iOS)";
 			productReference = 8B7CDCE2258FD81D00C6908B /* sims.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +335,10 @@
 				Base,
 			);
 			mainGroup = 8B7CDCD5258FD81C00C6908B;
+			packageReferences = (
+				8B7CDD1C25916AFE00C6908B /* XCRemoteSwiftPackageReference "ChartView" */,
+				8B7CDD5B259328C600C6908B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 8B7CDCE3258FD81D00C6908B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95307A1625ACC6C400914EDE /* nasalization-rg.ttf in Resources */,
 				8B7CDD08258FD81D00C6908B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95307A1F25ACC7B800914EDE /* nasalization-rg.ttf in Resources */,
 				8B7CDD09258FD81D00C6908B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +391,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951E825325ACED4100F14815 /* NetworkManager.swift in Sources */,
+				95307A3125ACD02A00914EDE /* MapView.swift in Sources */,
+				95307A0925ACC25E00914EDE /* About.swift in Sources */,
+				95307A0F25ACC29000914EDE /* ScreenCard.swift in Sources */,
+				951E825925ACED7600F14815 /* Response.swift in Sources */,
 				8B7CDD06258FD81D00C6908B /* ContentView.swift in Sources */,
+				95307A0325ACC20900914EDE /* DataExplorer.swift in Sources */,
+				953079F825ACC0E100914EDE /* Home.swift in Sources */,
 				8B7CDD04258FD81D00C6908B /* simsApp.swift in Sources */,
+				951E824D25ACDFF900F14815 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7CDD07258FD81D00C6908B /* ContentView.swift in Sources */,
+				953079FD25ACC1FB00914EDE /* Home.swift in Sources */,
 				8B7CDD05258FD81D00C6908B /* simsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTVV6WYRM9;
+				DEVELOPMENT_TEAM = 7GR7A27J66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -479,7 +571,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NASA.sims;
+				PRODUCT_BUNDLE_IDENTIFIER = NASA.sims.kinoshita;
 				PRODUCT_NAME = sims;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -493,7 +585,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTVV6WYRM9;
+				DEVELOPMENT_TEAM = 7GR7A27J66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -501,7 +593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NASA.sims;
+				PRODUCT_BUNDLE_IDENTIFIER = NASA.sims.kinoshita;
 				PRODUCT_NAME = sims;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -696,6 +788,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B7CDD1C25916AFE00C6908B /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+		8B7CDD5B259328C600C6908B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B7CDD1D25916AFE00C6908B /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B7CDD1C25916AFE00C6908B /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		8B7CDD5C259328C600C6908B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B7CDD5B259328C600C6908B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B7CDCD6258FD81C00C6908B /* Project object */;
 }
