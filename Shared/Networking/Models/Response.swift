@@ -8,7 +8,10 @@
 import Foundation
 
 struct Response: Codable {
-    var results: [Result]?
+    var ndvi: [Double]?
+    var eto: [Double]?
+    var kcb: [Double]?
+    var etc: [Double]?
 }
 
 struct Result: Codable {

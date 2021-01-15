@@ -11,6 +11,7 @@ import MapKit
 class NetworkManager: ObservableObject {
     
     var results = [Result]()
+    var response = Response()
     
     
     func fetchLocationData(loc: CLLocationCoordinate2D) {
@@ -30,6 +31,7 @@ class NetworkManager: ObservableObject {
                     DispatchQueue.main.async {
                         self.results = decodedResponse
                     }
+                    print(self.response)
                     return
                 }
             }
